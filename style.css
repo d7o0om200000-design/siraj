@@ -1,0 +1,14 @@
+/* The reader's own dark (android colors.xml) and a lamp's warmth for the links. */
+:root { color-scheme: dark; --bg: #1E2023; --text: #E6E1D8; --muted: #A9A398; --lamp: #E8B65C; --rule: #34373B; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 18px/1.8 "Segoe UI", Tahoma, "Noto Naskh Arabic", sans-serif; }
+main { max-width: 42rem; margin: 0 auto; padding: 3rem 1rem 4rem; }
+h1 { font-size: 2.2rem; margin: 0 0 .5rem; color: var(--lamp); }
+h1 .latin { font-size: 1.1rem; color: var(--muted); font-weight: normal; margin-inline-start: .5rem; }
+h2 { font-size: 1.2rem; margin: 2rem 0 .5rem; }
+.lead { color: var(--muted); margin: 0; }
+a { color: var(--lamp); }
+code { background: #2A2D31; padding: 0 .3em; border-radius: 3px; direction: ltr; unicode-bidi: isolate; }
+ul { padding-inline-start: 1.2rem; }
+.links { margin-top: 2rem; }
+.en { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--rule); font-size: 16px; line-height: 1.7; }
